@@ -1,0 +1,128 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.navbar {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+    .navbar li {
+        display: inline-block;
+    }
+
+        .navbar li a {
+            color: white;
+            margin-right: 5px;
+            text-decoration: none;
+            padding: 5px 20px;
+            font-family: "Roboto",sans-serif;
+            font-size: 15px;
+        }
+
+        .navbar li.active a {
+            border: 2px solid #72f618;
+        }
+
+        .navbar li a:hover {
+            border: 2px solid #72f618;
+        }
+
+.logo img {
+    width: auto;
+    height: 10x;
+    float: left;
+}
+
+.box {
+    background: linear-gradient(rgba(0,221,229,0.8),rgba(0,221,229,0.7)),url(concert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.box1 {
+    background: linear-gradient(rgba(201,58,94,0.8),rgba(201,58,94,0.7)),url(rock2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.box2 {
+    background: linear-gradient(rgba(155,60,196,0.8),rgba(155,60,196,0.7)),url(edm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.tagline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    font-size: 5rem;
+    color: #fff;
+    }
+
+p{
+    text-align: center;
+    color: #ddd;
+}
+
+.mbtn{
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    padding: 20px 5%;
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 50px;
+    background-size: 200% auto;
+    margin: 10px;
+    font-size: 20px;
+    box-shadow: 0 0 10px #000;
+    transition: 0.5s;
+}
+
+.btn-grad{
+    background-image: linear-gradient(to right,#1FA2FF 0%,#12D8FA 51%,#1FA2FF);
+}
+
+.btn-grad:hover{
+    background-position: right center;
+}
+
+
+
+.btn-grad1 {
+    background-image: linear-gradient(to right,#FF512F 0%,#DD2476 51%,#FF512F);
+}
+
+    .btn-grad1:hover {
+        background-position: right center;
+    }
+
+
+
+.btn-grad2 {
+    background-image: linear-gradient(to right,#AA076B 0%,#61045F 51%,#AA076B);
+}
+
+    .btn-grad2:hover {
+        background-position: right center;
+    }
+
+
+
+

@@ -1,0 +1,45 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgba(0,0,0,0.5)),url(Dollarphotoclub_74179490.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: centre;
+    font-family: Verdana,tohama;
+}
+
+.navbar{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    margin-right: 5px;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+}
+
+.navbar li.active a{
+    border: 2px solid #72f618;
+}
+
+.navbar li a:hover {
+        border: 2px solid #72f618;
+    }
+
+.logo img{
+    width: auto;
+    height: 10x;
+    float: left;
+}
+

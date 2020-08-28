@@ -1,0 +1,134 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto',sans-serif
+}
+
+header {
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgba(0,0,0,0.5)),url(Dollarphotoclub_74179490.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: centre;
+}
+
+.navbar {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+    .navbar li {
+        display: inline-block;
+    }
+
+        .navbar li a {
+            color: white;
+            margin-right: 5px;
+            text-decoration: none;
+            padding: 5px 20px;
+            font-family: "Roboto",sans-serif;
+            font-size: 15px;
+        }
+
+        .navbar li.active a {
+            border: 2px solid #72f618;
+        }
+
+        .navbar li a:hover {
+            border: 2px solid #72f618;
+        }
+
+.logo img {
+    width: auto;
+    height: 10x;
+    float: left;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+
+.contact-form{
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.13)
+}
+
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+    width: 48%;
+}
+
+    .input-fields .input,
+    .msg textarea {
+        margin: 10px 0;
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid #22d10e;
+        padding: 10px;
+        color: white;
+        width: 100%;
+    }
+
+.msg textarea{
+    height: 212px;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+}
+
+::-moz-input-placeholder {
+    color: white;
+}
+
+::-ms-input-placeholder {
+    color: white;
+}
+
+.contact-form button {
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: 0;
+    background: #26bd0f;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.contact-form button:hover, .contact-form button:active {
+    background: #43A047;
+}
+
+@media screen and (max-width: 600px){
+    .contact-form{
+        flex-direction: column;
+    }
+    .msg textarea{
+        height: 80px;
+    }
+    .input-fields,
+    .msg{
+        width: 100%;
+    }
+}
